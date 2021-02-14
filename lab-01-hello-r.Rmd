@@ -2,7 +2,9 @@
 title: "Lab 01 - Hello R"
 author: "Sadeem"
 date: "14/02/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 University ID: 2201001438
