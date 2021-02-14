@@ -16,5 +16,21 @@ library(datasauRus)
 
 
 ### Lab Exercise
+### head() : function: Returns the first or last parts of a vector, matrix, table or data frame 
+```{r load-packages, message=FALSE}
+head(datasaurus_dozen)
+```
 
-(Type your answer to the Exercise here. Remember to include the code, you need to put the code between three backticks followed by the following line on top of the code {r load-packages, message=FALSE}. See 'Load Packages' above as an example. Delete everything in these brackets after typing your answer.)
+### summary () function : 
+Summary (or descriptive) statistics are the first figures used to represent nearly every dataset. They also form the foundation for much more complicated computations and analyses. Thus, in spite of being composed of simple methods, they are essential to the analysis process. This tutorial will explore the ways in which R can be used to calculate summary statistics, including the mean, standard deviation, range, and percentiles. Also introduced is the summary function, which is one of the most useful tools in the R set of commands.
+
+
+```{r load-packages, message=FALSE}
+summary(datasaurus_dozen)
+```
+
+### view () function : Invoke a spreadsheet-style data viewer on a matrix-like R object. here it will show all contenets of our dataframe
+
+```{r load-packages, message=FALSE}
+view(datasaurus_dozen)
+```
